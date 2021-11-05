@@ -1,0 +1,6 @@
+---
+- name: copy html pages
+  copy:
+    src: files/sunshine-html
+    dest: /var/www/
+  become: yes
